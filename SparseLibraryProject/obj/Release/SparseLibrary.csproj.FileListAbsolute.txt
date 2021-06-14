@@ -1,0 +1,5 @@
+C:\Users\Carlos\Desktop\SparseLibraryProject\bin\Release\SparseLibrary.dll
+C:\Users\Carlos\Desktop\SparseLibraryProject\bin\Release\SparseLibrary.pdb
+C:\Users\Carlos\Desktop\SparseLibraryProject\obj\Release\SparseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\SparseLibraryProject\obj\Release\SparseLibrary.dll
+C:\Users\Carlos\Desktop\SparseLibraryProject\obj\Release\SparseLibrary.pdb
