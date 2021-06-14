@@ -54,3 +54,5 @@ matrix.ToCOO()
 % to MATLAB sparse (print)
 matrix.ToMatlabSparse()
 ```
+
+![a](https://user-images.githubusercontent.com/83190503/121953799-eb634d80-cd55-11eb-9835-818a1ad1b818.png)
