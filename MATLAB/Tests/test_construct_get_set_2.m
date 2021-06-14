@@ -5,7 +5,7 @@ clear all; close all; clc;
 addpath([pwd, '\..\']);
 
 % load the .NET assembly
-dll = [pwd '\SparseLibrary.dll'];
+dll = [pwd '\..\SparseLibrary.dll'];
 assembly = NET.addAssembly(dll);
 
 % number of elements to test
