@@ -20,6 +20,16 @@ matrix.Set(7, 3, 9.0);
 % set multiple values
 matrix.Set([1 2 3], [4 3 2], [10. 20. 30.]);
 
+% add some values (same as set, except the value is added to the matrix element, while set replaces it)
+matrix.Add(1, 3, 5.0);
+matrix.Add(2, 4, 6.0);
+matrix.Add(7, 1, 4.0);
+matrix.Add(7, 3, 9.0);
+%matrix.Set(9, 3, 1.0); % Error: Index was outside the bounds of the array.
+
+% add multiple values (same as set, except the value is added to the matrix element, while set replaces it)
+matrix.Add([1 2 3], [4 3 2], [10. 20. 30.]);
+
 % get some values (print)
 matrix.Get(7, 1)
 matrix.Get(1, 1)

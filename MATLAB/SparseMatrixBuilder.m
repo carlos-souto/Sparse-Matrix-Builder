@@ -21,6 +21,11 @@ classdef SparseMatrixBuilder
             this.Base.Set(row - 1, col - 1, val); % 1 to 0 based indexing
         end
         
+        % add a value to a matrix element by indexing (i, j)
+        function Add(this, row, col, val)
+            this.Base.Add(row - 1, col - 1, val); % 1 to 0 based indexing
+        end
+        
         % set all elements in the diagonal
         function SetDiagonal(this, val)
             this.Base.SetDiagonal(val);

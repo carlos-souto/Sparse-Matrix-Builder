@@ -134,6 +134,44 @@ namespace SparseLibrary
 				}
 			}
 		}
+		public void Add(int row, int column, double value)
+		{
+			CheckIndexOutOfRangeException(row, column);
+
+			(int, int) key = (row, column);
+
+			if (value != 0.0)
+			{
+				if (data.ContainsKey(key))
+					data[key] += value;
+				else
+					data.Add(key, value);
+			}
+		}
+		public void Add(int[] rows, int[] columns, double[] values)
+		{
+			if (rows.Length != columns.Length || rows.Length != values.Length)
+				throw new System.ArgumentException();
+
+			for (int i = 0; i < values.Length; i++)
+			{
+				int row = rows[i];
+				int column = columns[i];
+				double value = values[i];
+
+				CheckIndexOutOfRangeException(row, column);
+
+				(int, int) key = (row, column);
+
+				if (value != 0.0)
+				{
+					if (data.ContainsKey(key))
+						data[key] += value;
+					else
+						data.Add(key, value);
+				}
+			}
+		}
 		public void SetDiagonal(double value)
 		{
 			int numberOfDiagonalElements = numberOfRows < numberOfColumns ? numberOfRows : numberOfColumns;
