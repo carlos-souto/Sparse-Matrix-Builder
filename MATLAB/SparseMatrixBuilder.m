@@ -71,8 +71,8 @@ classdef SparseMatrixBuilder
         % to matlab sparse
         function output = ToMatlabSparse(this)
             coo = this.ToCOO();
-            m = this.Base.NumberOfRows;
-            n = this.Base.NumberOfColumns;
+            m = double(this.Base.NumberOfRows);
+            n = double(this.Base.NumberOfColumns);
             output = sparse(coo(:, 1), coo(:, 2), coo(:, 3), m, n);
         end
         
