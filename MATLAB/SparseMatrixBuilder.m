@@ -13,7 +13,7 @@ classdef SparseMatrixBuilder
         
         % get an element from the matrix by indexing (i, j)
         function val = Get(this, row, col)
-            val = this.Base.Get(row - 1, col - 1); % 1 to 0 based indexing
+            val = double( this.Base.Get(row - 1, col - 1) ); % 1 to 0 based indexing
         end
         
         % set an element from the matrix by indexing (i, j)
