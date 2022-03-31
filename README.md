@@ -1,6 +1,6 @@
 # Sparse-Matrix-Builder
 
-### By Carlos Souto (csouto@fe.up.pt)
+### By C. Souto (csouto@fe.up.pt)
 
 Much faster routines for creating and build huge sparse matrices in MATLAB.
 
