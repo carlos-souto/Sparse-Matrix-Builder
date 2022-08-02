@@ -2,7 +2,7 @@
 
 ### By C. Souto (csouto@fe.up.pt)
 
-Much faster routines for creating and build huge sparse matrices in MATLAB.
+Much faster routines for creating and building huge sparse matrices in MATLAB.
 
 Usage example:
 
