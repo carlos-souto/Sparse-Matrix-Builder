@@ -43,3 +43,7 @@ Notice that repeated entries are added together.
 It is faster to set multiple values at once using `add_vals`.
 
 Nevertheless, this implementation should perform better than Matlab's `sparse` during a loop building process.
+
+## Test results
+![a](https://user-images.githubusercontent.com/83190503/219529781-fab10097-a8c5-4178-b327-bb130b72daed.png)
+![b](https://user-images.githubusercontent.com/83190503/219529812-0608bd02-628c-4f83-9ee7-c9cfee265d67.png)
